@@ -1,0 +1,7 @@
+  mc-tunnel:
+    image: ekzhang/bore
+    command: ["server"]
+    network_mode: "host"
+    environment:
+      BORE_SECRET: ${BORE_SECRET}
+    restart: always

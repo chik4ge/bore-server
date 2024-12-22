@@ -1,3 +1,4 @@
+services:
   mc-tunnel:
     image: ekzhang/bore
     command: ["server"]
